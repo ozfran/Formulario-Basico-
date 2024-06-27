@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #d3d3d3; /* Fondo gris claro */
+    border-radius: 5px; /* Radio de borde de 5 píxeles */
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#nombreCompleto {
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+#correoElectronico {
+    color: black;
+    background-color: yellow;
+    border: 1px solid blue;
+}
+
+#edad {
+    color: black;
+    background-color: white;
+    border: 2px solid red;
+}
+
+#comentarios {
+    color: black;
+    background-color: yellow;
+    border: 1px solid grey;
+}
+
+#botonEnviar {
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#botonEnviar:hover {
+    background-color: darkblue;
+}
